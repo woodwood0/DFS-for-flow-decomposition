@@ -1,6 +1,6 @@
 # DFS for flow decomposition
 
-以Depth-First Search深度優先搜尋法分解流量，共有X/Y/Z三種網絡，前二者為人流網絡，後者為車流網絡，人流網絡中的XE/YE調度節線**部分須由車輛協助移動**，故可能同時出現在車流網絡，示意圖如下。（XYZ三種網絡之流量求解方法以及其餘節線代表意義，此處不多作說明）
+以Depth-First Search深度優先搜尋法分解流量，共有X/Y/Z三種網絡，前二者為人流網絡，後者為車流網絡，人流網絡中的XE/YE調度節線**部分須由車輛協助移動**，故可能同時出現在車流網絡，示意圖如下。<br>（XYZ三種網絡之流量求解方法以及其餘節線代表意義，此處不多作說明）<br>
 ![時空網絡示意](https://github.com/woodwood0/DFS-for-flow-decomposition/assets/171545924/ce204b97-ca45-4458-b8e3-b5bb75856a47)
 <br>
 
@@ -17,7 +17,7 @@
 
 ## 檔案說明
 - 輸入`arc_flow_S.txt` : 編碼方式如圖，資料處理後輸出`arc_flow_S_after`。<br>
-![檔案編碼](https://github.com/woodwood0/DFS-for-flow-decomposition/assets/171545924/24fa67ea-6f50-49a2-ac4c-e615a0865128)
+![節線編碼](https://github.com/woodwood0/DFS-for-flow-decomposition/assets/171545924/5f1d5ff1-3e13-4ea5-bf85-d6bc88a89d54)
 
 
 - 輸出`count_flow_result` : 編碼方式如圖，說明如下，<br>
