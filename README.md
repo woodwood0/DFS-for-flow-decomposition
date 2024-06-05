@@ -1,6 +1,7 @@
 # DFS for flow decomposition
 
 以Depth-First Search深度優先搜尋法分解流量，共有X/Y/Z三種網絡，前二者為人流網絡，後者為車流網絡，<br>人流網絡中的XE/YE調度節線**部分須由車輛協助移動**，故可能同時出現在車流網絡，示意圖如下。<br>（XYZ三種網絡之流量求解方法以及其餘節線代表意義，此處不多作說明）<br>
+<br>
 ![時空網絡示意](https://github.com/woodwood0/DFS-for-flow-decomposition/assets/171545924/ce204b97-ca45-4458-b8e3-b5bb75856a47)
 <br>
 
